@@ -28,8 +28,8 @@ function Team() {
           </p>
           <p>Playing basketball is his zen.</p>
           <p className="Aboutus-Links">
-            Connect on <a href="">Homepage</a> / <a href="">TradingQnA</a> /{" "}
-            <a href="">Twitter</a>
+            Connect on <a href="#">Homepage</a> / <a href="#">TradingQnA</a> /{" "}
+            <a href="#">Twitter</a>
           </p>
       </div>
     </div>
