@@ -5,7 +5,7 @@ function NotFound() {
     <div className="container p-5">
       <div className="row text-center">
         {/* <img src= "../images/homeHero.png" alt="Hero"  className='mb-5'/> */}
-        <h1 className="mt-5"> 404 Not found</h1>
+        <h1 className="mt-5"> Comming Soon</h1>
         <p>Sorry, the page you are looking for does not exist.</p>
       </div>
     </div>

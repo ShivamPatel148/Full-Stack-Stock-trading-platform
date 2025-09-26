@@ -15,20 +15,20 @@ function Hero() {
           <input placeholder="Eg. how do I activate F&O" />
           <br />
           <div className="support-link d-flex gap-3 mt-3">
-          <a href="">Track account opening</a>
-          <a href="">Track segment activation</a>
-          <a href="">Intraday margins</a>
-          <a href="">Kite user manual</a>
+          <a href="/">Track account opening</a>
+          <a href="/">Track segment activation</a>
+          <a href="/">Intraday margins</a>
+          <a href="/">Kite user manual</a>
           </div>
         </div>
         <div className="col-6 p-3">
           <h1 className="fs-3">Featured</h1>
           <ol>
             <li>
-              <a href="">Current Takeovers and Delisting - January 2024</a>
+              <a href="/Home">Current Takeovers and Delisting - January 2024</a>
             </li>
             <li>
-              <a href="">Latest Intraday leverages - MIS & CO</a>
+              <a href="/MIS">Latest Intraday leverages - MIS & CO</a>
             </li>
           </ol>
         </div>

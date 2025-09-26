@@ -12,38 +12,38 @@ function Footer() {
           <div className="col-3">
             <p className="fw-bold">Company</p>
             <div className="footer-links">
-              <a href="#">Products</a>
+              <a href="/products">Products</a>
               <br />
-              <a style={{ textDecoration: "none" }} href="#">
+              <a style={{ textDecoration: "none" }} href="/products">
                 Referral programme
               </a>
               <br />
-              <a href="#">Careers</a>
+              <a href="/Careers">Careers</a>
               <br />
-              <a href="#">About </a>
+              <a href="About">About </a>
               <br />
-              <a href="#">Zerodha.tech</a>
+              <a href="/Zerodha.tech">Zerodha.tech</a>
               <br />
-              <a href="#">Pricing </a>
+              <a href="/Pricing">Pricing </a>
               <br />
-              <a href="#">Press & Medaia</a>
+              <a href="/News">Press & Media</a>
               <br />
-              <a href="#">Zerodha Cares (CSR)</a>
+              <a href="/Support">Zerodha Cares (CSR)</a>
               <br />
             </div>
           </div>
           <div className="col-3">
             <p className="fw-bold"> Support</p>
             <div className="footer-links">
-              <a href="#">Contact</a>
+              <a href="/Support">Contact</a>
               <br />
-              <a href="#">Support portal</a>
+              <a href="/Support">Support portal</a>
               <br />
-              <a href="#">Z-Connect blog</a>
+              <a href="/Blog">Z-Connect blog</a>
               <br />
-              <a href="#">List of charges</a>
+              <a href="/Pricing">List of charges</a>
               <br />
-              <a href="#">Downloads & Resources</a>
+              <a href="/Downloads">Downloads & Resources</a>
             </div>
           </div>
 
@@ -69,13 +69,13 @@ function Footer() {
             #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School,
             J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any
             complaints pertaining to securities broking please write to
-            <a href="#"> complaints@zerodha.com</a>, for DP related to{" "}
-            <a href="#"> dp@zerodha.com</a>. Please ensure you carefully read
+            <a href="/complaint"> complaints@zerodha.com</a>, for DP related to{" "}
+            <a href="/Zerodha"> dp@zerodha.com</a>. Please ensure you carefully read
             the Risk Disclosure Document as prescribed by SEBI | ICF
           </p>
 
           <p className="footer-smallprint">
-            Procedure to file a complaint on <a href="#">SEBI SCORES</a>:
+            Procedure to file a complaint on <a href="/Complaint">SEBI SCORES</a>:
             Register on SCORES portal. Mandatory details for filing complaints
             on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits:
             Effective Communication, Speedy redressal of the grievances
