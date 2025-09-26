@@ -8,7 +8,7 @@ function Hero() {
         </h3>
         <p className="mt-3 mb-5">
           check out our{" "}
-          <a href="#" style={{ textDecoration: "none" }}>
+          <a href="/offer" style={{ textDecoration: "none" }}>
             investment offerings{" "}
             <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
           </a>

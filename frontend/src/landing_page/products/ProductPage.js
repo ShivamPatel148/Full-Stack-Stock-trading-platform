@@ -52,10 +52,10 @@ function ProductPage() {
         appStore=""
       />
       <p className="text-center mt-5 mb-5 fs-3">
-        Want to know more about our technology stack? Check out the <a style={{textDecoration:"none"}}href="#" >Zerodha.tech </a>blog.
+        Want to know more about our technology stack? Check out the <a style={{textDecoration:"none"}}href="/Zerodha" >Zerodha.tech </a>blog.
       </p>
       <Universe />
-      <a></a>
+      {/* <a></a> */}
     </>
   );
 }

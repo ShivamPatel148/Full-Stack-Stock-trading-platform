@@ -50,11 +50,11 @@ function Footer() {
           <div className="col-3 " style={{ textDecoration: "" }}>
             <p className="fw-bold">Account</p>
             <div className="footer-links">
-              <a href="#">Open an Account</a>
+              <a href="/Account">Open an Account</a>
               <br />
-              <a href="#">Fund Transfer</a>
+              <a href="/Fund">Fund Transfer</a>
               <br />
-              <a href="#">60 daily change</a>
+              <a href="/Challenge">60 daily change</a>
               <br />
             </div>
           </div>
@@ -115,22 +115,22 @@ function Footer() {
             }}
           >
             <li className="col-2">
-              <a href="#">NSE</a>
+              <a href="/https://www.nseindia.com/">NSE</a>
             </li>
             <li className="col-2">
-              <a href="#">BSE</a>
+              <a href="/https://www.bseindia.com/">BSE</a>
             </li>
             <li className="col-2">
-              <a href="#">MCX</a>
+              <a href="/https://www.mcxindia.com/">MCX</a>
             </li>
             <li className="col-2">
-              <a href="#">Terms&conditions</a>
+              <a href="/Footer">Terms&conditions</a>
             </li>
             <li className="col-2">
-              <a href="#">Policies & procedures</a>
+              <a href="/Footer">Policies & procedures</a>
             </li>
             <li className="col-2">
-              <a href="#">Privacy policy</a>
+              <a href="/Footer">Privacy policy</a>
             </li>
           </ul>
           {/* <div className=" footer-links col-2">
