@@ -13,9 +13,16 @@ const PORT = process.env.PORT || 3002;
 const url = process.env.MONGO_URL;
 
 const app = express();
+app.use(
+  cors({
+    origin: ["https://full-stack-stock-trading-platform-2.vercel.app"], // your frontend URL
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
 mongoose.connect(url);
 
-app.use(cors());
+// app.use(cors());
 app.use(bodyParser.json());
 
 // app.get("/addHolding", async (req, res) => {
