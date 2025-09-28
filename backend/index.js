@@ -9,7 +9,7 @@ const { HoldingModel } = require("./model/HoldingModel");
 const { PositionModel } = require("./model/PositionModel");
 const { OrderModel } = require("./model/OrderModel");
 
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 4000;
 const url = process.env.MONGO_URL;
 
 const app = express();
