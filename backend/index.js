@@ -15,10 +15,10 @@ const url = process.env.MONGO_URL;
 const app = express();
 app.use(
   cors({
-    origin: ["https://full-stack-stock-trading-platform-2.vercel.app"], // your frontend URL
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true,
-  })
+    // origin: ["https://full-stack-stock-trading-platform-2.vercel.app"], // your frontend URL
+    // methods: ["GET", "POST", "PUT", "DELETE"],
+    // credentials: true,
+  })      
 );
 mongoose.connect(url);
 
